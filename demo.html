@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>NetSells Slider</title> 
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> 
+		<script type="text/javascript" src="nsBanner.js"></script>
+		
+		<style>
+			ul#banner li div
+			{
+				background-color: #888;
+				color: #FFF;
+				width: 600px;
+				height: 100px;
+				padding: 30px;
+			}
+		</style>
+	</head> 
+	<body>
+		<ul id="banner">
+			<li><div>Here is some content.</div></li>
+			<li><div style="background-color: red;">This is a another bit of content.</div></li>
+			<li><div style="background-color: blue;">This is a puppy.</div></li>
+		</ul>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('ul#banner').nsBanner();
+			})
+		</script>
+	</body>
+</html>

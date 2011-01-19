@@ -1,0 +1,22 @@
+Licensed under the GPL
+
+Pretty much the same as any other jQuery plugin. Just init on a ul of your choice
+
+$('ul#banner').nsBanner();
+
+The width of the banner will be that of the widest li. 
+I'd recommend wrapping your content in div's and applying styles to the div rather than the li.
+
+Options are,
+
+transition : 'fade' and 'slide'
+pause : number in milliseconds
+speed : number in milliseconds
+
+Example
+
+$('ul#banner').nsBanner({
+	transition: 'fade',
+	pause: 10000, // ten seconds
+	speed: 500, // 0.5 seconds
+});
