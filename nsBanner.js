@@ -5,7 +5,7 @@
 		var defaults = {
 			speed : 1500,
 			pause : 4000,
-			transition : 'slide'
+			transition : 'fade'
 		},
 
 		options = $.extend(defaults, options);
